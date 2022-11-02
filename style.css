@@ -31,31 +31,16 @@ body {
 /*=============== NAVBAR ==================*/
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 10px 20px;
 }
 
 nav ul {
-  display: flex;
-  width: 50%;
-  justify-content: space-between;
 }
 
 /*============== HEADER =================*/
 
 .header {
-  display: flex;
-  justify-content: space-around;
   margin: 30px auto;
-}
-
-.header-left {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .header-left-container h1 {
@@ -78,19 +63,8 @@ nav ul {
 /*============== INFOS =================*/
 
 .infos {
-  display: flex;
   background: var(--color4);
   border-radius: 10px;
-}
-
-.infos-left {
-  width: 33%;
-}
-
-.btn-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 
 .btn-container button {
@@ -107,20 +81,6 @@ nav ul {
 
 .infos-right {
   width: 67%;
-}
-
-.investors {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80%;
-}
-
-.img-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
 }
 
 .img-container img {
