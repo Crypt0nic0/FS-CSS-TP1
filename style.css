@@ -31,16 +31,27 @@ body {
 /*=============== NAVBAR ==================*/
 
 nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
   padding: 10px 20px;
 }
 
 nav ul {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
 
 /*============== HEADER =================*/
 
 .header {
+  display: grid;
+  grid-template-columns: 50% 50%;
   margin: 30px auto;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
 }
 
 .header-left-container h1 {
@@ -57,14 +68,22 @@ nav ul {
 }
 
 #modem {
+  margin: 0 auto;
   width: 100%;
 }
 
 /*============== INFOS =================*/
 
 .infos {
+  display: grid;
+  grid-template-columns: 33% 67%;
   background: var(--color4);
   border-radius: 10px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .btn-container button {
@@ -78,11 +97,17 @@ nav ul {
   letter-spacing: 1px;
   margin: 5px;
 }
-
-.infos-right {
-  width: 67%;
+.investors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86%;
 }
-
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 .img-container img {
   height: 60px;
 }
