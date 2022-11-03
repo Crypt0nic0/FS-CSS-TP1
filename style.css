@@ -111,3 +111,15 @@ nav ul {
 .img-container img {
   height: 60px;
 }
+
+/*================WEB RESPONSIVE===================*/
+
+/* Smartphones et petites tablettes */
+
+@media screen and (max-width: 799px) {
+}
+
+/* Tablettes */
+
+@media screen and (max-width: 966px) {
+}
